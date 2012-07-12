@@ -67,7 +67,7 @@ let g:Powerline_symbols = 'unicode'
 set laststatus=2
 
 " colorpack
-colorscheme desert
+colorscheme wombat256
 
 " => Moving around, tabs and buffers
 "    ===============================

@@ -4,6 +4,7 @@ call pathogen#infect()                      " load everyhting else
 call pathogen#helptags()                    " load plugin help files
 
 set nocompatible
+set term=linux
 
 " Gui
 set guioptions-=aegimrLtT
@@ -62,7 +63,7 @@ set number
 set ruler
 set wrap
 
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'unicode'
 set laststatus=2
 
 " colorpack

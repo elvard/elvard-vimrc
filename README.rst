@@ -11,16 +11,18 @@ still buggy.
 Requirements
 ------------
 
-pyflakes
-terminal with 256-color support (like patched rxvt-unicode)
+  * pyflakes
+  * terminal with 256-color support (like patched rxvt-unicode)
 
 Install
 -------
 
-git clone git://github.com/elvard/elvard-vimrc.git .vim
+::
 
-# All plugins in bundle are submodules, so…
-cd .vim
-git submodule init
-git submodule update
-ln -s '~/.vim/vimrc' ~/.vimrc
+    git clone git://github.com/elvard/elvard-vimrc.git .vim
+
+    # All plugins in bundle are submodules, so…
+    cd .vim
+    git submodule init
+    git submodule update
+    ln -s '~/.vim/vimrc' ~/.vimrc

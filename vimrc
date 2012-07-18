@@ -109,11 +109,10 @@ endtry
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
 
+autocmd FileType python map <buffer> <leader>88 :call Flake8()<CR>
+
 " Utilities
 " ==========
 "
 " When vimrc is edited, reload it
 autocmd! bufwritepost .vimrc source ~/.vimrc
-
-" pep8
-let g:pep8_map='<leader>88'

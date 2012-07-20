@@ -55,7 +55,6 @@ set nohlsearch
 
 " Visual
 highlight Normal ctermbg=black
-set background=dark
 set cursorline
 set t_Co=256
 
@@ -67,6 +66,7 @@ let g:Powerline_symbols = 'unicode'
 set laststatus=2
 
 " colorpack
+set background=dark
 colorscheme wombat256
 
 " => Moving around, tabs and buffers

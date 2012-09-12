@@ -4,7 +4,7 @@ call pathogen#infect()                      " load everyhting else
 call pathogen#helptags()                    " load plugin help files
 
 set nocompatible
-set term=linux
+set term=xterm
 
 " Gui
 set guioptions-=aegimrLtT

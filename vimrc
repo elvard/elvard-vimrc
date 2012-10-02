@@ -116,3 +116,11 @@ autocmd FileType python map <buffer> <leader>88 :call Flake8()<CR>
 "
 " When vimrc is edited, reload it
 autocmd! bufwritepost .vimrc source ~/.vimrc
+
+function! AppendModeline()
+  let l:modeline = printf(" vim: set sts=%d ts=%d sw=%d tw=%d ft=%s:",
+      \ &softtabstop, &tabstop, &shiftwidth, &textwidth, &filetype)
+  let l:modeline = substitute(&commentstring, "%s", l:modeline, "")
+  call append(line("$"), l:modeline)
+endfunction
+nnoremap <silent> <Leader>ml :call AppendModeline()<CR>

@@ -61,3 +61,21 @@
 [submodule "bundle/python_match.vim"]
 	path = bundle/python_match.vim
 	url = git://github.com/vim-scripts/python_match.vim.git
+[submodule "bundle/rope-vim"]
+	path = bundle/rope-vim
+	url = git://github.com/sontek/rope-vim.git
+[submodule "bundle/ropevim"]
+	path = bundle/ropevim
+	url = git://github.com/peplin/ropevim.git
+[submodule "bundle/ctags"]
+	path = bundle/ctags
+	url = git://github.com/vim-scripts/ctags.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/tasklist"]
+	path = bundle/tasklist
+	url = git://github.com/superjudge/tasklist-pathogen.git
+[submodule "bundle/pythoncomplete"]
+	path = bundle/pythoncomplete
+	url = git://github.com/vim-scripts/pythoncomplete.git

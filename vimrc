@@ -108,6 +108,10 @@ endtry
 
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
+nmap <F8> :TagbarToggle<CR>
+
+map T :TaskList<CR>
+map P :TlistToggle<CR>
 
 autocmd FileType python map <buffer> <leader>88 :call Flake8()<CR>
 
